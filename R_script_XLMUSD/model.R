@@ -1,6 +1,6 @@
 
 library(data.table)
-folder = "C:/Users/User/Desktop/crypto-trading-bot/R_script_XLMUSD"
+folder = "~/trading-bot-test/trading-bot/R_script_XLMUSD"
 setwd(folder)
 # reading csv data into R environment
 cryptodata = data.table(read.csv("XLMUSD_data.csv", sep=","))

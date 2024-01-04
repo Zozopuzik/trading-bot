@@ -1,6 +1,6 @@
 
 library(data.table)
-folder = "C:/Users/User/Desktop/crypto-trading-bot/R_script_ETHUSD"
+folder = "~/trading-bot-test/trading-bot/R_script_ETHUSD"
 setwd(folder)
 cryptodata = data.table(read.csv("ETHUSD_data.csv", sep=","))
 userdata = data.table(read.csv("user_data.csv", sep=","))

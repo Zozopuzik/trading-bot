@@ -1,5 +1,5 @@
 library(data.table)
-folder = "C:/Users/User/Desktop/crypto-trading-bot/R_script_LTCUSD"
+folder = "~/trading-bot-test/trading-bot/R_script_LTCUSD"
 setwd(folder)
 # reading csv data into R environment
 cryptodata = data.table(read.csv("LTCUSD_data.csv", sep=","))

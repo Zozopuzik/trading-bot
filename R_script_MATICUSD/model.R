@@ -1,6 +1,6 @@
 
 library(data.table)
-folder = "C:/Users/User/Desktop/crypto-trading-bot/R_script_MATICUSD"
+folder = "~/trading-bot-test/trading-bot/R_script_MATICUSD"
 setwd(folder)
 # reading csv data into R environment
 cryptodata = data.table(read.csv("MATICUSD_data.csv", sep=","))
