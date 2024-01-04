@@ -3,8 +3,8 @@ import { exec } from "child_process";
 //function that calls R script, manipulate with callback and return "sell" or "buy"
 const runRScript = async (coin, callback) => {
   try {
-    const rScriptPath = "C:/Program Files/R/R-4.3.1/bin/Rscript";
-    const rScriptFile = `./R_script_${coin}/model.R`;
+    const rScriptPath = "/usr/bin/Rscript";
+     const rScriptFile = `./R_script_${coin}/model.R`;
     const command = `"${rScriptPath}" "${rScriptFile}"`;
     exec(command, (error, stdout, stderr) => {
       if (error) {
